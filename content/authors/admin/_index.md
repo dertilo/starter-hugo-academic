@@ -1,63 +1,21 @@
 ---
-# Display name
-title: Alice Wu 吳恩達
-
-# Full name (for SEO)
-first_name: Alice
-last_name: Wu
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position/tagline
-role: Professor of Artificial Intelligence
-
-# Organizations/Affiliations to show in About widget
-organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-# Interests to show in About widget
+avatar_filename: tilo.jpg
+bio: what is this text good for?
 interests:
   - Artificial Intelligence
   - Computational Linguistics
   - Information Retrieval
-
-# Education to show in About widget
-education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-
-# Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: /#contact
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/GeorgeCushen
     label: Follow me on Twitter
     display:
       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  - icon: graduation-cap
     icon_pack: fas
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
@@ -66,19 +24,33 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
-
-# Highlight the author in author lists? (true/false)
+organizations:
+  - name: Stanford University
+    url: https://www.stanford.edu/
+education:
+  courses:
+    - course: MEng in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2009
+    - course: BSc in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2008
+superuser: true
+status:
+  icon: ☕️
+last_name: Wu
+role: Research Engineer
 highlight_name: true
+title: Tilo Himmelsbach
+first_name: Alice
+email: ""
 ---
+Hi, I’m Tilo! I’m a machine learning and NLP specialist stuck somewhere between research and engineering. I like training deep neural networks on big GPUs for diverse NLP-tasks.
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+My machine learning endavour started in 2011 when I focused on [biomedical signal processing](https://iopscience.iop.org/article/10.1088/0967-3334/35/8/1551/) during my studies at [TUDresden](https://tu-dresden.de/ing/elektrotechnik/ibmt/forschung/bsv?set_language=en). During my Master thesis I applied LSTMs to heart rate variability time series. As processing sequential data is one of the key aspects of natural language processing I ended up in computational linguistics, NLP and Data Science.\
+Working for a search and document centered startup taught me, that to do magic you don’t necessarily need fancy deep neural networks. But that the actual intelligence lies within the sheer mass of data and the speed that nowadays computers&clusters can cut through it.
+
+[🐍](<>) I really like [beautiful](https://github.com/psf/black) Python code, though very hard to find. The human-centric idea of Python really appeals to me. That you are actually supposed to write code not for the machine but for other people to read. Writing code should be all about sharing ideas that are also machine-interpretable. But unfortunately Python (and probably many other languages too) are way too liberal, non-constricting, unregulated, not providing any guidance and thereby leading people right into (unwilling) obfuscation and technical dept overload. There should be a penalty for using class inheritance and object-oriented programming where it is not really necessary.
